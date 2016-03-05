@@ -1,0 +1,170 @@
+* { 
+	-webkit-border-radius: 0 !important; 
+	-moz-border-radius: 0 !important; 
+	border-radius: 0 !important; 
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: black;
+}
+
+#nav_main_container {
+	width: 100%;
+	height: 850px;
+	background-color: #902d67;
+	position: relative;
+}
+
+.navbar-default {
+	background-color: #902d67;
+	border: none;
+}
+
+.navbar-header {
+        float: none;
+}
+
+.navbar-toggle {
+        display: block !important;
+}
+
+.navbar-collapse .collapse {
+        display: none!important;
+}
+
+#collapsemenu {
+	border: none;
+	margin-left: -15px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-nav {
+        float: none!important;
+        margin: 30px -15px 0 0;
+        padding-top: 10px;
+}
+
+.navbar-nav li {
+        float: none;
+}
+
+.navbar-default .navbar-nav li a {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 4vmin;
+	padding-bottom: 30px;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.col-md-8 {
+	position: absolute;
+	padding-top: 100px;
+}
+
+#section_about {
+	height: 40%;
+	width: 100%;
+	padding: 50px 0;
+	background-color: #b5b5b5;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+#section_about h1 {
+	font-weight: 600;
+	font-size: 2.8em;
+}
+
+#section_about p {
+	font-weight: 400;
+	font-size: 1.6em;
+}
+
+#section_about p a {
+	text-decoration: underline;
+}
+
+#section_projects {
+	height: 60%;
+	width: 100%;
+	padding: 50px 0;
+	background-color: #9a9999;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+#section_projects h1 {
+	font-weight: 600;
+	font-size: 2.8em;
+}
+
+#section_projects .col-md-4 {
+	margin: 30px 0;
+}
+
+#section_projects .container .row {
+	margin-right: -60px;
+}
+
+#section_projects h2 {
+	font-weight: 500;
+	font-size: 2em;
+}
+
+#section_projects h2 a {
+	color: white;
+}
+
+#section_projects h2 a:hover {
+	color: black;
+}
+
+#footer {
+	height: 30%;
+	width: 100%;
+	background-color: #902d67;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	padding: 30px;
+}
+
+#footer h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: 600;
+	font-size: 2.2em;
+}
+
+#footer p {
+	font-weight: 500;
+	font-size: 2em;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#footer p a {
+	color: white;
+}
+
+#footer p a:hover {
+	color: black;
+}
