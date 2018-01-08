@@ -25,15 +25,15 @@ a:hover {
 }
 
 .navbar-header {
-        float: none;
+    float: none;
 }
 
 .navbar-toggle {
-        display: block !important;
+    display: block !important;
 }
 
 .navbar-collapse .collapse {
-        display: none!important;
+    display: none!important;
 }
 
 #collapsemenu {
@@ -46,13 +46,13 @@ a:hover {
 }
 
 .navbar-nav {
-        float: none!important;
-        margin: 30px -15px 0 0;
-        padding-top: 10px;
+    float: none!important;
+    margin: 30px -15px 0 0;
+    padding-top: 10px;
 }
 
 .navbar-nav li {
-        float: none;
+    float: none;
 }
 
 .navbar-default .navbar-nav li a {
@@ -67,7 +67,8 @@ a:hover {
 	border-color: transparent;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
 	background-color: transparent;
 }
 
@@ -75,15 +76,14 @@ a:hover {
 	background-color: #fff;
 }
 
-.col-md-8 {
-	position: absolute;
+#vc-signature {
 	padding-top: 100px;
 }
 
 #section_about {
 	height: 40%;
 	width: 100%;
-	padding: 50px 0;
+	padding: 50px 0 80px 0;
 	background-color: #b5b5b5;
 	color: white;
 	font-family: 'Raleway', sans-serif;
@@ -92,6 +92,7 @@ a:hover {
 #section_about h1 {
 	font-weight: 600;
 	font-size: 2.8em;
+	text-align: center;
 }
 
 #section_about p {
@@ -104,9 +105,9 @@ a:hover {
 }
 
 #section_projects {
-	height: 60%;
+	height: 80%;
 	width: 100%;
-	padding: 50px 0;
+	padding: 50px 0 90px 0;
 	background-color: #9a9999;
 	color: white;
 	font-family: 'Raleway', sans-serif;
@@ -115,27 +116,25 @@ a:hover {
 #section_projects h1 {
 	font-weight: 600;
 	font-size: 2.8em;
+	text-align: center;
 }
 
-#section_projects .col-md-4 {
-	margin: 30px 0;
+#section_projects p,
+#section_projects ul {
+	font-size: 1.2em;
 }
 
-#section_projects .container .row {
-	margin-right: -60px;
+#section_projects .row img {
+	padding-top: 25px;
 }
 
-#section_projects h2 {
-	font-weight: 500;
-	font-size: 2em;
+#careBOTyou-chatbot {
+	margin-top: 60px;
 }
 
-#section_projects h2 a {
-	color: white;
-}
-
-#section_projects h2 a:hover {
-	color: black;
+#badminton-website img {
+	padding-left: 17px;
+	margin-left: 10px;
 }
 
 #footer {
